@@ -1,5 +1,13 @@
-# ABAP BaseConverter
-This ABAP class provides methods for converting numbers between different numeral systems. Additionally, it allows incrementing a base-specific number without conversion.
+# Base Converter for Multiple Numeric Systems
+This class provides methods for converting numbers between different numeral systems.
+It supports conversions between decimal and various bases (e.g., binary, octal, hexadecimal, base-62).
+Additionally, it allows incrementing a base-specific number without converting.
+
+Features<br>
+- Convert from decimal to any base (e.g., 10 → 'A' in base-16)
+- Convert from any base to decimal (e.g., 'A' → 10 in base-16)
+- Increment a base-specific number using `next` (e.g., 'Z' → '10' in base-36)
+- Supports up to base-62 using alphanumeric characters
 
 SAP Basis Component: 757 SP 4 or higher
 
